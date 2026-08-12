@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "preset-dwango-progedu": true,
+    "ja-space-between-half-and-full-width": {
+      "space": ["punctuation"]
+    }
+  },
+  "filters": {
+    "allowlist": {
+      "allow": [
+        "/\b[1-9]つ/"
+      ]
+    },
+    "comments": true
+  }
+}

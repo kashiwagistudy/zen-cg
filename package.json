@@ -1,0 +1,36 @@
+{
+  "name": "zen-text-template",
+  "version": "1.0.0",
+  "description": "「[タイトルを入力してください]」の教材",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "textlint \"0*/0*.md\"",
+    "fix": "textlint --fix \"0*/0*.md\"",
+    "start": "book-renderer serve",
+    "build": "npm install --save-dev book-renderer && npx book-renderer build -o _book",
+    "plugins-docs": "book-renderer serve -d ./node_modules/@progedu/book-renderer-plugins/docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:progedu/zen-text-template.git"
+  },
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
+    "book-renderer": "github:progedu/n-content-book-renderer",
+    "lint-staged": "^12.4.2",
+    "sudachi-synonyms-dictionary": "^10.0.0",
+    "textlint": "^12.1.1",
+    "textlint-filter-rule-allowlist": "^4.0.0",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-ja-space-between-half-and-full-width": "^2.4.2",
+    "textlint-rule-max-ten": "^2.0.3",
+    "textlint-rule-preset-dwango-progedu": "^1.1.18",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-prh": "^5.0.1"
+  },
+  "author": "",
+  "dependencies": {
+    "@progedu/book-renderer-plugins": "github:progedu/book-renderer-plugins"
+  }
+}

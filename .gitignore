@@ -1,0 +1,18 @@
+node_modules
+.DS_Store
+.idea/
+package-lock.json
+yarn.lock
+tools
+~$*.xls*
+yarn-error.log
+
+*.mp4
+
+
+# built excel file
+# /*.xlsx
+
+# generated issue list
+issuelist.html
+README_WITH_ISSUES.md

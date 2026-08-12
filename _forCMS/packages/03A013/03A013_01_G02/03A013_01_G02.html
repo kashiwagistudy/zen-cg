@@ -1,0 +1,167 @@
+<html lang=""><head>
+  <meta charset="UTF-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>Scalaとは</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&amp;family=BIZ+UDPGothic:wght@400;700&amp;display=swap" rel="stylesheet">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <script type="text/x-mathjax-config" defer="">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$', '$'] ],
+        displayMath: [ ['$$','$$'], ["\\(","\\)"] ]
+      },
+      "HTML-CSS": {
+        availableFonts: ["TeX"],
+        undefinedFamily: "'Raleway', Helvetica, Arial, sans-serif"
+      }
+    });
+    MathJax.Hub.Register.StartupHook("End Jax",function () {
+      var jax = "HTML-CSS";
+      return MathJax.Hub.setRenderer(jax);
+    });
+  </script>
+  <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<meta name="book-renderer-version" content="v3.0.4">
+
+<style> :root { --show-indent-space-content: ' ';
+--show-indent-tab-content: ' '; } </style>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>
+          mermaid.initialize({"startOnLoad":true,"theme":"base","themeVariables":{"fontFamily":"'BIZ UDPGothic'","primaryColor":"#FFFFFF","primaryBorderColor":"#0046A5","lineColor":"#FF5FAE","git0":"#5EAAFF","git1":"#B9DDB8","git2":"#F6AB00","git3":"#D6A4D3","gitBranchLabel0":"#000000","gitBranchLabel1":"#000000","gitBranchLabel2":"#000000","gitBranchLabel3":"#000000"}});
+        </script>
+      
+
+        <script type="text/x-mathjax-config" defer="">
+          MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"HTML-CSS":{"availableFonts":["TeX"],"undefinedFamily":"'Raleway', Helvetica, Arial, sans-serif"},"CommonHTML":{"availableFonts":["TeX"],"undefinedFamily":"'Raleway', Helvetica, Arial, sans-serif"},"TeX":{"extensions":["color.js"]}});
+          MathJax.Hub.Register.StartupHook("End Jax",function () {
+            const BROWSER = MathJax.Hub.Browser;
+            let jax = "HTML-CSS"
+            if(BROWSER.isMac) jax = "CommonHTML";
+            return MathJax.Hub.setRenderer(jax);
+          });
+        </script>
+        <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&amp;family=BIZ+UDPGothic:wght@400;700&amp;display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp|Material+Symbols+Outlined" rel="stylesheet">
+
+<meta name="brplugins-internal-splide-settings" content="{&quot;mountOptions&quot;:{&quot;type&quot;:&quot;slide&quot;,&quot;rewind&quot;:true,&quot;speed&quot;:400,&quot;rewindSpeed&quot;:1000,&quot;rewindByDrag&quot;:true,&quot;drag&quot;:true},&quot;heightRatioToWindow&quot;:0.9}"><style> :root { --slider-content-position: center; } </style>
+<script type="text/javascript" src="https://cdn.nnn.ed.nico/drive/zen_university/assets/progedu/zen-text-template/minified.js"></script>
+<link rel="stylesheet" href="https://cdn.nnn.ed.nico/drive/zen_university/assets/progedu/zen-text-template/minified.css">
+</head>
+
+<body>
+
+  
+  <div class="book">
+
+    
+    <div class="book-header" role="navigation">
+      <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+      Scalaとは</h1>
+    </div>
+    <div class="page-wrapper" tabindex="-1" role="main">
+
+      
+      <section class="main-content markdown-section">
+<h1>Scalaとは</h1>
+<p class="image-with-caption">
+  <img src="image/scala.png">
+</p>
+<h2 id="scala%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">Scalaについて</h2>
+<p><strong>Scala</strong> は2003年にスイス連邦工科大学のMartin Odersky教授(マーティン・オダースキー教授)によって開発されたプログラミング言語で、日本語では「スカラ」と読みます。<br>
+Scalaという名前自体が、<strong>Scalable Language</strong>（スケーラブルな言語）という意味を持っています。これはユーザの求めに応じて成長していけるように設計されている言語という意味です。</p>
+<p>Martin Odersky教授はJava 5で導入された機能であるジェネリクスの開発者であり、彼の書いたJavaコンパイラはJDK 1.3の頃から標準搭載されています。そういう意味で、Javaとの縁も深い人です。なおここにでてくるJDKとは、Java Development Kitの略でJavaを使ってアプリケーションなどを作るソフトウェア開発キットおよび開発環境のことを指します。<br></p>
+<h2 id="java%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">Javaについて</h2>
+<p>ちなみに <strong>Java</strong>（ジャバ）というプログラミング言語は、1995年に登場した言語で、20年以上の歴史の中で多くの実績やライブラリ資産を持っているプログラミング言語です。<br></p>
+<p>2023年現在、Java自体は、エンタープライズ系のアプリケーション開発やAndroidアプリ開発など、様々な分野で使われています。特に、1990年代以前は多くの場合、企業のエンタープライズシステムの実装は、COBOLで実装されることが多かったのですが、オブジェクト指向プログラミング言語の有用性がわかることで、現在はオブジェクト指向言語であるJavaやC# などで実装されることが多くなっています。ちなみに<a href="https://octoverse.github.com/2022/top-programming-languages" data-link-type="external" target="_blank" rel="noopener noreferrer">GitHubが2022年に公開した最も利用されている言語のランキング</a>では、Javaは、JavaScript、Pythonに続き3位となっています。</p>
+<p>Javaという言語は、<strong>JVM</strong>（Java Virtual Machine）という仮想マシン上で動くことを前提として設計されています。それにより、一度書くとどこでも動く(Write once, run anywhere)という特性を持っています。JVM自体は、32bitのCPUであれ64bitのCPUであれ、WindowsであれMacであれLinuxであれ、様々な環境で動作することができます。近年では、CPUのアーキテクチャ自体もx86系のCPUだけではなく、iPhoneやAndoidやMacなどで主流となりつつあるARM系のCPUでも動作するため、長期間メンテナンスをしていきたいシステムなどとJavaは非常に相性が良いものとなっています。</p>
+<p>Javaで作られていて有名なアプリケーションといえば、検索エンジンのElasticsearchや、大規模なデータ処理を行うHadoop、ゲームのMinecraft Java版などがあります。Androidを開発する際に用いる統合開発環であるにIntelliJ IDEAなどもJavaで作られていて、皆さんの身の回りにもたくさんのJavaで作られたアプリケーションを見つけることができるのではないかと思います。</p>
+<h2 id="java%E3%81%AE%E8%B3%87%E7%94%A3%E3%82%92%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8Bscala">Javaの資産を利用できるScala</h2>
+<p>Scalaは、このJavaの持っている運用経験や既存のライブラリのほとんどを利用できるため、非常に多くの現場で使える言語です。Javaはオープンソースで開発されている言語であり、JVMの仕様も公開されています。そのため、JVMで動作し、Javaのライブラリを利用できるそのほかの言語も存在しています。有名なものには、KotlinやGroovy、Clojureなどがあります。Scalaは、これらの言語の中でも特に人気が高い言語です。</p>
+<p>Scalaは、<strong>オブジェクト指向プログラミング</strong>と<strong>関数型プログラミング</strong>の両方ができる特徴を持っています。またScalaは、オブジェクト指向や関数型プログラミングというものの他に、非同期プログラミング、並行・並列処理を得意としています。この言語に一つ触れるだけで多くのプログラミングパラダイムに触れることができるため、まさに「ユーザの求めに応じて成長していける言語」と言えるでしょう。</p>
+<p>Scalaは、非常に多くのプログラミング言語から影響を受けており、多くの構文がJavaとC#と同様のものであり、徹底したオブジェクトモデルはSmalltalkやRubyと同様のものです。また関数型プログラミングの機能は、SML、OCaml、F#などの言語と似ており、暗黙のパラメータ機能などはHaskellの影響を受けています。また並行処理のために利用されるAkka Actorという機能は、Erlangの影響を受けています。そのため、この言語を一つ学ぶだけで非常に多くのプログラミング言語のエッセンスを学ぶことができるというメリットがあります。</p>
+<h2 id="%E3%81%BE%E3%81%A8%E3%82%81">まとめ</h2>
+<ul>
+<li>Scalaは、2003年にMartin Odersky教授によって開発され、オブジェクト指向と関数型の両方のプログラミングが可能な、ユーザの要求に応じて成長するスケーラブルな言語である</li>
+<li>Javaは、1995年に登場し、エンタープライズやAndroidアプリ開発など多岐に渡る分野で使用され、一度書くとどこでも動作する特性を持つオブジェクト指向プログラミング言語である</li>
+<li>Scalaは、Javaの運用経験やライブラリを利用可能させ、多くのプログラミングのエッセンスを学べるような設計がされており、多くの現場で利用可能な言語となっている</li>
+</ul>
+<h2 id="%E5%95%8F%E9%A1%8C1">問題1</h2>
+<p>Scalaの特徴から選んだ適切なものはどれか。</p>
+<ol>
+<li>すべての変数は不変であるという特性を持つプログラミング言語だ</li>
+<li>オブジェクト指向のみを扱うプログラミング言語である</li>
+<li>ScalaはJavaの運用経験やライブラリを利用できる言語である</li>
+<li>静的型付けと動的型付けの両方をサポートするプログラミング言語だ</li>
+</ol>
+<h3 id="%E6%AD%A3%E8%A7%A31">正解1</h3>
+<ol start="3">
+<li>ScalaはJavaの運用経験やライブラリを利用できる言語である</li>
+</ol>
+<h4 id="%E8%A7%A3%E8%AA%AC">解説</h4>
+<p>Scalaはオープンソースのプログラミング言語で、オブジェクト指向プログラミングと関数型プログラミングの両方を扱う特性を持つ。また、Javaの運用経験や既存のライブラリを利用できるため、多くの場面で活用できる。オブジェクト指向や関数型プログラミングなど多様なプログラミングパラダイムを学ぶことができるため、「ユーザの求めに応じて成長していける言語」だと言える。</p>
+<blockquote>
+<ol>
+<li>すべての変数は不変であるという特性を持つプログラミング言語だ</li>
+</ol>
+</blockquote>
+<p>これはHaskellの特性である。</p>
+<blockquote>
+<ol start="2">
+<li>オブジェクト指向のみを扱うプログラミング言語である</li>
+</ol>
+</blockquote>
+<p>Scalaは、オブジェクト指向を扱うが、関数型プログラミングも扱える。</p>
+<blockquote>
+<ol start="4">
+<li>静的型付けと動的型付けの両方をサポートするプログラミング言語だ</li>
+</ol>
+</blockquote>
+<p>これはPythonやRubyの特性で、Scalaは静的型付けのみサポートである。</p>
+<h2 id="%E5%95%8F%E9%A1%8C2">問題2</h2>
+<p>Javaについての記述として最も適切なものはどれだろうか。</p>
+<ol>
+<li>Javaは、非同期プログラミング、並行・並列処理を得意とする言語だ。</li>
+<li>Javaは、JVM（Java Virtual Machine）という仮想マシン上で動くことを前提として設計されている。</li>
+<li>Javaは、Martin Odersky教授により2003年に作られた言語だ。</li>
+<li>Javaはオブジェクト指向プログラミングと関数型プログラミングの両方ができる特徴を持つ。</li>
+</ol>
+<h3 id="%E6%AD%A3%E8%A7%A32">正解2</h3>
+<ol start="2">
+<li>Javaは、JVM（Java Virtual Machine）という仮想マシン上で動くことを前提として設計されている。</li>
+</ol>
+<h4 id="%E8%A7%A3%E8%AA%AC-1">解説</h4>
+<p>Javaは、JVM（Java Virtual Machine）という仮想マシン上で動くことを前提に設計されています。これにより、「一度書くとどこでも動く」（Write once, run anywhere）という特性を持ち、32bitのCPUでも64bitのCPUでもWindowsでもMacでもLinuxでも動作することが可能であり、CPUのアーキテクチャがx86系であってもARM系であってもJavaは動作します。</p>
+<ol>
+<li>Javaは非同期プログラミング、並行・並列処理を得意とする言語ではない。</li>
+<li>Javaの開発はSun Microsystems（現在のOracle）で、1995年に公開された。</li>
+<li>Javaはオブジェクト指向プログラミングをサポートしているが、関数型プログラミングも完全に実装することは難しい。</li>
+</ol>
+
+</section>
+      
+    
+</div>
+    
+  
+</div>
+
+
+
+</body></html>
